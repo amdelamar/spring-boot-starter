@@ -14,3 +14,7 @@ A simple Spring-Boot starter application with embedded Tomcat server.
 1. Run build `./gradlew clean build`
 1. Start server `java -jar build/libs/spring-boot-starter-0.1.0.jar`
 1. Visit [http://localhost:8080/](http://localhost:8080/) to see the app running.
+
+## License
+
+[MIT](/LICENSE)
