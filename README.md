@@ -1,12 +1,12 @@
-# spring-boot-starter
+# Spring-Boot-Starter
 
-A simple Spring-Boot starter application with embedded Tomcat server.
+A simple Spring-Boot app with embedded Tomcat server.
 
 ## Prerequisites
 
 * [JDK 1.8](https://www.java.com/en/download/faq/develop.xml)
-* [Eclipse](https://eclipse.org/downloads/) or [Spring Tools Suite](https://spring.io/tools)
-* [Docker]{https://docs.docker.com/engine/installation/) (Optional)
+* [Eclipse](https://eclipse.org/downloads/) or [Spring Tools Suite](https://spring.io/tools) (Optional)
+* [Docker](https://docs.docker.com/engine/installation/) (Optional)
 
 ## Run Manually
 
@@ -23,7 +23,7 @@ A simple Spring-Boot starter application with embedded Tomcat server.
 1. Run build `./gradlew clean build`
 1. Build image `docker build -t spring-boot .`
 1. Run container `docker run -p 8080:8080 spring-boot`
-1. Visit [http://localhost:8080/](http://localhost:8080/) to see the container running.
+1. Visit [http://<container-ip>:8080/](http://<container-ip>:8080/) to see the app running.
 
 ## License
 
