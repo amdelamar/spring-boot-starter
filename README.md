@@ -18,8 +18,6 @@ A simple Spring-Boot app with embedded Tomcat server.
 
 ## Run in Docker
 
-1. Download code `git clone https://github.com/amdelamar/spring-boot-starter`
-1. `cd spring-boot-starter`
 1. Run build `./gradlew clean build`
 1. Build image `docker build -t spring-boot .`
 1. Run container `docker run -p 8080:8080 spring-boot`

@@ -26,9 +26,13 @@ targetCompatibility = 1.8
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
-    compile 'org.springframework.boot:spring-boot-starter-tomcat'
-    compile 'org.apache.tomcat.embed:tomcat-embed-jasper'
-    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    // Tomcat default
+    
+    // or with Jetty
+    //compile("org.springframework.boot:spring-boot-starter-web") {
+    //    exclude module: "spring-boot-starter-tomcat"
+    //}
+    //compile("org.springframework.boot:spring-boot-starter-jetty")
     
     testCompile 'junit:junit'
     testCompile 'org.springframework.boot:spring-boot-starter-test'
